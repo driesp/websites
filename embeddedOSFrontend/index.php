@@ -36,7 +36,7 @@
             <h1 class="cover-heading">
               <div class="panel panel-primary">
                 <div class="panel-heading">
-                  <h1>Embedded Operating Systemens 2016</h1>
+                  <h1>Embedded Operating Systems 2016</h1>
                 </div>
               </div>
             </h1>
@@ -91,8 +91,8 @@
                 <div class="panel-heading">Kernelspace Driver:</div>
                 <div class="panel-body">
                   <div class="btn-group" role="group" aria-label="...">
-                    <button type="button" class="btn btn-success">Start</button>
-                    <button type="button" class="btn btn-danger">Stop</button>
+                    <button type="button" class="btn btn-success">Aan</button>
+                    <button type="button" class="btn btn-danger">Uit</button>
                   </div>
                 </div>
               </div>
