@@ -54,12 +54,46 @@
             </p>
             <p class="lead">
               <div class="panel panel-primary">
+                <div class="panel-heading">Lumen:</div>
+                <div class="panel-body">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                      60%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </p>
+            <p class="lead">
+              <div class="panel panel-primary">
                 <div class="panel-heading">Temperature:</div>
                 <div class="panel-body">
                   <div class="progress">
                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                       60%
                     </div>
+                  </div>
+                </div>
+              </div>
+            </p>
+            <p class="lead">
+              <div class="panel panel-primary">
+                <div class="panel-heading">Userspace Driver:</div>
+                <div class="panel-body">
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-success">Start</button>
+                    <button type="button" class="btn btn-danger">Stop</button>
+                  </div>
+                </div>
+              </div>
+            </p>
+            <p class="lead">
+              <div class="panel panel-primary">
+                <div class="panel-heading">Kernelspace Driver:</div>
+                <div class="panel-body">
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-success">Start</button>
+                    <button type="button" class="btn btn-danger">Stop</button>
                   </div>
                 </div>
               </div>
