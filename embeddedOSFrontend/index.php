@@ -35,7 +35,7 @@
           <div class="inner cover">
             <h1 class="cover-heading">
               <div class="panel panel-primary">
-                <div class="panel-body">
+                <div class="panel-heading">
                   <h1>Embedded Operating Systemens 2016</h1>
                 </div>
               </div>
