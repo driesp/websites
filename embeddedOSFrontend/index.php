@@ -43,6 +43,15 @@
             <h1 class="cover-heading">Alle Labo's</h1>
             <p class="lead">
               <div class="panel panel-primary">
+                <div class="panel-heading">Led Example:</div>
+                <div class="panel-body">
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-success">Start</button>
+                    <button type="button" class="btn btn-danger">Stop</button>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-primary">
                 <div class="panel-heading">Temperature:</div>
                 <div class="panel-body">
                   <div class="progress">
