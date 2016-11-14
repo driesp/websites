@@ -48,6 +48,11 @@
                     60%
                   </div>
                 </div>
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1">Temperature</span>
+                  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                </div>
+
               </div>
             </p>
             <p class="lead">
