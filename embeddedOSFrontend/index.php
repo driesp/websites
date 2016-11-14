@@ -51,6 +51,8 @@
                   </div>
                 </div>
               </div>
+            </p>
+            <p class="lead">
               <div class="panel panel-primary">
                 <div class="panel-heading">Temperature:</div>
                 <div class="panel-body">
@@ -61,9 +63,6 @@
                   </div>
                 </div>
               </div>
-            </p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>
           </div>
         </div>
