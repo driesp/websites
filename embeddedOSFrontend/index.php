@@ -32,15 +32,14 @@
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Embedded OS Labo's</h3>
-            </div>
-          </div>
-
           <div class="inner cover">
-            <h1 class="cover-heading">Alle Labo's</h1>
+            <h1 class="cover-heading">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <h1>Embedded Operating Systemens 2016</h1>
+                </div>
+              </div>
+            </h1>
             <p class="lead">
               <div class="panel panel-primary">
                 <div class="panel-heading">Led Example:</div>
