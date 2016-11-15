@@ -59,7 +59,7 @@
                       <?php
                       $output = exec("sudo -u root -S /home/pi/rpiShieldDriver/tsl2561T/./program 2>&1 < /home/pi/.sudopass/sudopass.secret");
                       $output = str_replace("TSL:", "",$output);
-                      echo("<div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='".$output."' aria-valuemin='0' aria-valuemax='10000' style='width:".($output/100)."%;'>");
+                      echo("<div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='".$output."' aria-valuemin='0' aria-valuemax='100000' style='width:".($output/1000)."%;'>");
                       echo($output . "Lumen");
                       echo("</div>");
                        ?>
