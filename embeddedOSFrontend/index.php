@@ -72,7 +72,7 @@
                       <?php
                       $output=array();
                       $rv=0;
-                      exec('/home/pi/rpiShieldDriver/ADT7310/./program 2>&1',$output,$rv);
+                      exec('sudo /home/pi/rpiShieldDriver/ADT7310/./program 2>&1',$output,$rv);
                       //echo(%rv);
                       foreach($output as $line)
                       {
