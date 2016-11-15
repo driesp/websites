@@ -72,7 +72,7 @@
                       <?php
                       $output=array();
                       $rv=0;
-                      exec('~/rpiShieldDriver/ADT7310/./readcard',$output,$rv);
+                      exec('~/rpiShieldDriver/ADT7310/./program',$output,$rv);
                       foreach($output as $line)
                       {
                         echo("$line\t");
