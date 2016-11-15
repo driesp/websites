@@ -72,7 +72,7 @@
                       <?php
                       $output=array();
                       $rv=0;
-                      exec('sudo -u root -S /home/pi/rpiShieldDriver/ADT7310/./program 2>&1 < /home/pi/.sudopass/sudopass.secret',$output,$rv);
+                      exec("sudo -u online_tool_user -c ''/home/pi/rpiShieldDriver/ADT7310/./program 2>&1' ",$output,$rv);
                       //echo(%rv);
                       foreach($output as $line)
                       {
