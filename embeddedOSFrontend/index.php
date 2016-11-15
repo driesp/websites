@@ -56,9 +56,13 @@
                 <div class="panel-heading">Lumen:</div>
                 <div class="panel-body">
                   <div class="progress">
-                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                      60%
-                    </div>
+                      <?php
+                      $output = exec("sudo -u root -S /home/pi/rpiShieldDriver/tsl2561T/./program 2>&1 < /home/pi/.sudopass/sudopass.secret");
+                      $output = str_replace("TSL:", "",$output);
+                      echo("<div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='".$output."' aria-valuemin='0' aria-valuemax='10000' style='width:".($output/100)."%;'>");
+                      echo($output . "Lumen");
+                      echo("</div>");
+                       ?>
                   </div>
                 </div>
               </div>
