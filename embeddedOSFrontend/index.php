@@ -68,13 +68,14 @@
                 <div class="panel-heading">Temperature:</div>
                 <div class="panel-body">
                   <div class="progress">
-                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+
                       <?php
                       $output = exec("sudo -u root -S /home/pi/rpiShieldDriver/ADT7310/./program 2>&1 < /home/pi/.sudopass/sudopass.secret");
                       $output = str_replace("temp:", "",$output);
-                      echo($output);
+                      echo("<div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='".$output."' aria-valuemin='0' aria-valuemax='100' style='width: 60%;'>");
+                      echo($output + "°c");
+                      echo("</div>");
                        ?>
-                    </div>
                   </div>
                 </div>
               </div>
