@@ -71,7 +71,7 @@
                     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                       <?php
                       $result = shell_exec("sudo /home/pi/rpiShieldDriver/ADT7310/./program");
-                      echo($result);
+                      echo("something");
                        ?>
                     </div>
                   </div>
