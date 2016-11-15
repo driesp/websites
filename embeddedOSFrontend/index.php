@@ -72,7 +72,8 @@
                       <?php
                       $output=array();
                       $rv=0;
-                      exec('~/rpiShieldDriver/ADT7310/./program',$output,$rv);
+                      exec('sudo ~/rpiShieldDriver/ADT7310/./program',$output,$rv);
+                      echo(%rv);
                       foreach($output as $line)
                       {
                         echo("$line\t");
