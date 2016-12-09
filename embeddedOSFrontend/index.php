@@ -46,15 +46,15 @@
                 <div class="panel-body">
                   <div class="input-group">
 				  <?php
-					if(isset($_POST("ledStart")))
+					if(isset($_GET("ledStart")))
 					{   
-						if(isset($_POST("ledValue")))
+						if(isset($_GET("ledValue")))
 						{
 							alert("something");
 						}
 					}
 				  ?>
-					<form action="index.php" method="POST">
+					<form action="index.php" method="get">
 					<input type="number" class="form-control" min="0" name="ledValue">
 					<span class="input-group-btn">
 						<input class="btn btn-success" type="button" name="ledStart">Start</input>
