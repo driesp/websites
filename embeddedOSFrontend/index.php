@@ -56,7 +56,7 @@ if(isset($_GET["ledStart"]))
 				<form action="index.php" method="get">
                   <div class="input-group">
 					
-					<input type="number" class="form-control" value="0" name="ledValue" valuemin="0">
+					<input type="number" class="form-control" value="0" name="ledValue" min="0">
 					<span class="input-group-btn">
 						<button class="btn btn-success" type="submit" name="ledStart">Start</button>
 					</span>
