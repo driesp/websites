@@ -46,11 +46,11 @@
                 <div class="panel-body">
                   <div class="input-group">
 				  <?php
-					if(isset($_GET("ledStart")))
+					if(isset($_GET["ledStart"]))
 					{   
-						if(isset($_GET("ledValue")))
+						if(isset($_GET["ledValue"]))
 						{
-							alert("something");
+							exec("sudo -u root -S /home/pi/rpiShieldDriver/ledTest/./program ".$_GET["ledValue"]." 2>&1 < /home/pi/.sudopass/sudopass.secret");
 						}
 					}
 				  ?>
