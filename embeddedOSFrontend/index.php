@@ -46,7 +46,7 @@
                 <div class="panel-body">
                   <div class="input-group">
 				  <?php
-					if(isset($_POST("ledStart")))
+					if(isset($_POST("ledStart"))
 					{   
 						if(isset($_POST("ledValue"))
 						{
