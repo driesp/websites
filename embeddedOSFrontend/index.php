@@ -53,14 +53,17 @@ if(isset($_GET["ledStart"]))
               <div class="panel panel-primary">
                 <div class="panel-heading">Led Example:</div>
                 <div class="panel-body">
+				<form action="index.php" method="get">
                   <div class="input-group">
-					<form action="index.php" method="get">
+					
 					<input type="number" class="form-control" value="0" name="ledValue" valuemin="0">
 					<span class="input-group-btn">
 						<button class="btn btn-success" type="submit" name="ledStart">Start</button>
 					</span>
-					</form>
+					
 					</div>
+					
+					</form>
                 </div>
               </div>
             </p>
