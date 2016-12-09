@@ -44,10 +44,12 @@
               <div class="panel panel-primary">
                 <div class="panel-heading">Led Example:</div>
                 <div class="panel-body">
-                  <div class="btn-group" role="group" aria-label="...">
-                    <button type="button" class="btn btn-success">Start</button>
-                    <button type="button" class="btn btn-danger">Stop</button>
-                  </div>
+                  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Search for...">
+					<span class="input-group-btn">
+						<button class="btn btn-success" type="button">Start</button>
+					</span>
+					</div>
                 </div>
               </div>
             </p>
