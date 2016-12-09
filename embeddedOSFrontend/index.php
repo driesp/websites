@@ -1,3 +1,12 @@
+<?php
+if(isset($_GET["ledStart"]))
+{   
+	if(isset($_GET["ledValue"]))
+	{
+		exec("sudo -u root -S /home/pi/rpiShieldDriver/ledTest/./program ".$_GET["ledValue"]." 2>&1 < /home/pi/.sudopass/sudopass.secret");
+	}
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,15 +54,6 @@
                 <div class="panel-heading">Led Example:</div>
                 <div class="panel-body">
                   <div class="input-group">
-				  <?php
-					if(isset($_GET["ledStart"]))
-					{   
-						if(isset($_GET["ledValue"]))
-						{
-							exec("sudo -u root -S /home/pi/rpiShieldDriver/ledTest/./program ".$_GET["ledValue"]." 2>&1 < /home/pi/.sudopass/sudopass.secret");
-						}
-					}
-				  ?>
 					<form action="index.php" method="get">
 					<input type="number" class="form-control" value="0" name="ledValue" valuemin="0">
 					<span class="input-group-btn">
