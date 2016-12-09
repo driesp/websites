@@ -45,10 +45,21 @@
                 <div class="panel-heading">Led Example:</div>
                 <div class="panel-body">
                   <div class="input-group">
-					<input type="number" class="form-control" placeholder="Search for...">
+				  <?php
+					if(isset($_POST("ledStart")))
+					{   
+						if(isset($_POST("ledValue"))
+						{
+							alert("something");
+						}
+					}
+				  ?>
+					<form action="index.php" method="POST">
+					<input type="number" class="form-control" min="0" name="ledValue">
 					<span class="input-group-btn">
-						<button class="btn btn-success" type="button">Start</button>
+						<button class="btn btn-success" type="button" name="ledStart">Start</button>
 					</span>
+					</form>
 					</div>
                 </div>
               </div>
