@@ -57,7 +57,7 @@
 					<form action="index.php" method="get">
 					<input type="number" class="form-control" min="0" name="ledValue">
 					<span class="input-group-btn">
-						<input class="btn btn-success" type="button" name="ledStart">Start</input>
+						<button class="btn btn-success" type="submit" name="ledStart">Start</button>
 					</span>
 					</form>
 					</div>
